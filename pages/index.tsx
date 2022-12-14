@@ -1,4 +1,4 @@
-import { Header } from "@/components";
+import { Banner, Header } from "@/components";
 import Head from "next/head";
 
 export default function Home() {
@@ -12,6 +12,7 @@ export default function Home() {
       {/* Header */}
       <Header />
       {/* Banner */}
+      <Banner />
     </div>
   );
 }
