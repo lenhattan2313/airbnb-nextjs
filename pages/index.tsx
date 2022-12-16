@@ -1,4 +1,11 @@
-import { Banner, Header, MediumCard, SmallCard } from "@/components";
+import {
+  Banner,
+  Footer,
+  Header,
+  LargeCard,
+  MediumCard,
+  SmallCard,
+} from "@/components";
 import Head from "next/head";
 export type ExploreData = {
   img: string;
@@ -57,7 +64,14 @@ export default function Home({
             ))}
           </div>
         </section>
+        <LargeCard
+          img="https://links.papareact.com/4cj"
+          title="The Greatest Outdoors"
+          description="Wishlist curated by Airbnb"
+          buttonText="Get Inspired"
+        />
       </main>
+      <Footer />
     </div>
   );
 }
